@@ -1,13 +1,7 @@
 .container-fluid {
     padding: 0;
 }
-body {
-    background-color: black;
-}
 
-header {
-    color: whitesmoke;
-}
 .card-text {
     align-items: center;
     text-align: center;
@@ -16,4 +10,5 @@ header {
 .card {
     justify-content: center;
 }
+
 
