@@ -7,8 +7,27 @@
     text-align: center;
 }
 
+#headshot {
+    margin-right: 0;
+}
+
 .card {
     justify-content: center;
 }
+
+#diamond {
+    float: left;
+    margin: 0;
+}
+
+#mimosa {
+    margin: 0;
+}
+
+#sbsp {
+    float: center;
+    margin: 0;
+}
+
 
 
