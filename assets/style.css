@@ -8,26 +8,34 @@
 }
 
 #headshot {
-    margin-right: 0;
+   margin-left: 50%;
+   margin-right: 50%;
 }
 
 .card {
-    justify-content: center;
+    margin: 50px;
 }
 
-#diamond {
-    float: left;
-    margin: 0;
+.btn {
+    background-color: black;
+    color: whitesmoke;
+    border: white;
+    margin-top: 5%;
+}
+
+/* #diamond {
+    margin-left: 30%;
 }
 
 #mimosa {
-    margin: 0;
+    margin-left: 30%;
+    
 }
 
 #sbsp {
-    float: center;
-    margin: 0;
-}
+    margin-left: 30%;
+    
+} */
 
 
 
