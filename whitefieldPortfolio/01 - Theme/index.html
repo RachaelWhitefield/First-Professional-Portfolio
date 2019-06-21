@@ -22,6 +22,8 @@
 	<!-- ==============================================
 	WEB FONTS
 	=============================================== -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/0ce9802b76.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:200,300,700' rel='stylesheet' type='text/css'>
 	
@@ -66,7 +68,7 @@
 	=============================================== -->
 	<div class="loader">
 		<div id="loader-content">
-			<p class="loader-logo">W</p>
+			<p class="loader-logo">RW</p>
 			<div id="loader-circle"></div>
 		</div>
 	</div>
@@ -79,9 +81,9 @@
 			<h1><button class="navbar-brand round-logo pt-trigger css3Animate" data-animation="22" data-goto="1" data-style="lightNav">W</button></h1>
 			<ul class="nav navbar-nav hidden-xs">
 				<li><button class="pt-trigger css3Animate" data-animation="22" data-goto="2" data-style="darkNav" data-style2="aboutmeNav">About me<span class="line css3Animate"></span></button></li>
-				<li><button class="pt-trigger right-margin css3Animate" data-animation="22" data-goto="3" data-style="darkNav" data-style2="workNav">Work<span class="line css3Animate"></span></button></li>
-				<li><button class="pt-trigger left-margin css3Animate" data-animation="22" data-goto="5" data-style="darkNav" data-style2="blogNav">Blog<span class="line css3Animate"></span></button></li>
-				<li><button class="pt-trigger css3Animate" data-animation="22" data-goto="6" data-style="lightNav" data-style2="contactNav">Contact<span class="line css3Animate"></span></button></li>
+				<li><button class="pt-trigger right-margin css3Animate" data-animation="22" data-goto="3" data-style="darkNav" data-style2="workNav">Portfolio<span class="line css3Animate"></span></button></li>
+				<li><button class="pt-trigger left-margin css3Animate" data-animation="22" data-goto="5" data-style="darkNav" data-style2="contactNav">Contact<span class="line css3Animate"></span></button></li>
+				<li><button class="pt-trigger css3Animate" data-animation="22" data-goto="6" data-style="lightNav" data-style2="contactNav">Resume<span class="line css3Animate"></span></button></li>
 			</ul>
 			<a href="#" id="menuMobileOpen" class="css3Animate hidden-sm hidden-md hidden-lg" aria-hidden="true" data-icon="&#x61;" title=""></a>
 		</div>
@@ -91,8 +93,8 @@
     	<ul class="nav navbar-nav">
 			<li><button class="pt-trigger css3Animate" data-animation="22" data-goto="2" data-style="darkNav" data-style2="aboutmeNav">About me<span class="line css3Animate"></span></button></li>
 			<li><button class="pt-trigger css3Animate" data-animation="22" data-goto="3" data-style="darkNav" data-style2="workNav">Work<span class="line css3Animate"></span></button></li>
-			<li><button class="pt-trigger css3Animate" data-animation="22" data-goto="5" data-style="darkNav" data-style2="blogNav">Blog<span class="line css3Animate"></span></button></li>
-			<li><button class="pt-trigger css3Animate" data-animation="22" data-goto="6" data-style="lightNav" data-style2="contactNav">Contact<span class="line css3Animate"></span></button></li>
+			<li><button class="pt-trigger css3Animate" data-animation="22" data-goto="5" data-style="darkNav" data-style2="blogNav">Contact<span class="line css3Animate"></span></button></li>
+			<li><button class="pt-trigger css3Animate" data-animation="22" data-goto="6" data-style="lightNav" data-style2="contactNav">Resume<span class="line css3Animate"></span></button></li>
 		</ul>
     </div>
 
@@ -186,16 +188,16 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h3>Check out and enjoy</h3>
-						<h4>my awesome work</h4>
+						<h4>my awesome portfolio</h4>
 						<div class="clearfix"></div>
 						
 						<!-- FILTER -->
-						<div id="filters">
+						<!-- <div id="filters">
 							<button class="css3Animate checked" data-filter="*">ALL</button>
 							<button class="css3Animate" data-filter=".design">DESIGN</button>
 							<button class="css3Animate" data-filter=".video">VIDEO</button>
 							<button class="css3Animate" data-filter=".photo">PHOTOGRAPHY</button>
-						</div>
+						</div> -->
 						
 						<!-- GALLERY -->					
 						<div id="gallery">
@@ -204,9 +206,10 @@
 					      	<div class="item w2 photo">
                                 <img class="css3Animate" src="img/images/crystalCollector1.jpg" alt="pink diamond"/>
                                 <div class="item-content css3Animate">
-                                    <a href="https://rachaelwhitefield.github.io/Crystal-Collector/" target="_blank" title="">
+                                    <a href="https://rachaelwhitefield.github.io/Crystal-Collector/"  target="_blank" title="">
                                         <h4 class="css3Animate">Crystal Collector Game</h4>
-                                        <p class="css3Animate">Guess the number with Crystal Collector</p>
+										<p class="css3Animate">Guess the number with Crystal Collector</p>
+									
                                     </a>
                                 </div>
 							</div>
@@ -242,11 +245,11 @@
 					      	</div>
 					      	<!-- IMAGE 5 -->
 					      	<div class="item photo">
-                                <img class="css3Animate" src="http://placehold.it/800x440&text=Ajax" alt="" />
+                                <img class="css3Animate" src="img/images/emeraldWhiteBackground.png" alt="emerald cut diamond"/>
                                 <div class="item-content css3Animate">
-                                	<a class="pt-trigger css3Animate menu-hide work-call" href="works/work1.html" data-animation="19" data-goto="4">
-                                        <h4 class="css3Animate">AJAX EXAMPLE</h4>
-                                        <p class="css3Animate">The awesome project description</p>
+                                	<a  href="https://github.com/RachaelWhitefield/Crystal-Collector" target="_blank" data-animation="19">
+                                        <h4 class="css3Animate">Github</h4>
+                                        <p class="css3Animate">Crystal Collector Repository Page</p>
                                     </a>
                                 </div>
 					      	</div>
@@ -497,7 +500,8 @@
 				</div>
 			</div>
 		</section>
-    </div> <!-- END BLOG SECTION -->
+	</div> 
+	<!-- END BLOG SECTION -->
     
     
     

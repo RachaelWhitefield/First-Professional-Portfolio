@@ -26,7 +26,7 @@ jQuery(document).ready(function() {
 		$('.loader').fadeOut();
 		$(".loader-logo").hide( "puff", 400, function() {
 			if (image_slider == true){
-				api.playToggle(); //delete this line if you don't use some image background option
+				// api.playToggle(); //delete this line if you don't use some image background option
 			}
 			text_rotate();
 			testimonials_rotate();
@@ -278,60 +278,60 @@ jQuery(document).ready(function() {
     	$( this ).addClass('checked');
 	});
 	
-	$('.portfolio-popup').magnificPopup({
-		type: 'image',
-		removalDelay: 500, //delay removal by X to allow out-animation
-		callbacks: {
-		beforeOpen: function() {
-			   this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
-			   this.st.mainClass = 'mfp-zoom-in';
-			}
-		},
-		closeOnContentClick: true,
-		fixedContentPos: false
-	});
+	// $('.portfolio-popup').magnificPopup({
+	// 	type: 'image',
+	// 	removalDelay: 500, //delay removal by X to allow out-animation
+	// 	callbacks: {
+	// 	beforeOpen: function() {
+	// 		   this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
+	// 		   this.st.mainClass = 'mfp-zoom-in';
+	// 		}
+	// 	},
+	// 	closeOnContentClick: true,
+	// 	fixedContentPos: false
+	// });
 	
-	$('.portfolio-youtube, .portfolio-vimeo').magnificPopup({
-		disableOn: 700,
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
+	// $('.portfolio-youtube, .portfolio-vimeo').magnificPopup({
+	// 	disableOn: 700,
+    //     type: 'iframe',
+    //     mainClass: 'mfp-fade',
+    //     removalDelay: 160,
+    //     preloader: false,
 
-        fixedContentPos: false
-	});
+    //     fixedContentPos: false
+	// });
 	
-	$('.portfolio-gallery').magnificPopup({
-		type: 'image',
-		removalDelay: 500, //delay removal by X to allow out-animation
-		callbacks: {
-		beforeOpen: function() {
-			   this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
-			   this.st.mainClass = 'mfp-zoom-in';
-			}
-		},
-		gallery: {
-			enabled: true 
-		},
-		closeOnContentClick: true,
-		fixedContentPos: false
-	});
+	// $('.portfolio-gallery').magnificPopup({
+	// 	type: 'image',
+	// 	removalDelay: 500, //delay removal by X to allow out-animation
+	// 	callbacks: {
+	// 	beforeOpen: function() {
+	// 		   this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
+	// 		   this.st.mainClass = 'mfp-zoom-in';
+	// 		}
+	// 	},
+	// 	gallery: {
+	// 		enabled: true 
+	// 	},
+	// 	closeOnContentClick: true,
+	// 	fixedContentPos: false
+	// });
 	
-	$('.portfolio-gallery2').magnificPopup({
-		type: 'image',
-		removalDelay: 500, //delay removal by X to allow out-animation
-		callbacks: {
-		beforeOpen: function() {
-			   this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
-			   this.st.mainClass = 'mfp-zoom-in';
-			}
-		},
-		gallery: {
-			enabled: true 
-		},
-		closeOnContentClick: true,
-		fixedContentPos: false
-	});
+	// $('.portfolio-gallery2').magnificPopup({
+	// 	type: 'image',
+	// 	removalDelay: 500, //delay removal by X to allow out-animation
+	// 	callbacks: {
+	// 	beforeOpen: function() {
+	// 		   this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
+	// 		   this.st.mainClass = 'mfp-zoom-in';
+	// 		}
+	// 	},
+	// 	gallery: {
+	// 		enabled: true 
+	// 	},
+	// 	closeOnContentClick: true,
+	// 	fixedContentPos: false
+	// });
 	
 	/* ========== AJAX CONTENT WORK ========== */
 	var newHash     = '',
