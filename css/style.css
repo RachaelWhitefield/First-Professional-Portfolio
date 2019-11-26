@@ -615,8 +615,8 @@ h5 {
 }
 
 .pt-page a { 
-	padding: 10px 15px;
-	border: 1px solid #ddd;
+	padding: 0px 15px;
+	/* border: 1px solid #ddd; */
 	display: inline-block;
 	cursor: pointer;
 	border-radius: 3px;
@@ -678,8 +678,9 @@ h5 {
 }
 
 .aboutme a{
-	margin-top: 20px;
+	/* margin-top: 20px; */
 	margin-bottom: 10px;
+
 }
 
 .aboutme .author-image-content{
